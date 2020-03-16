@@ -9,11 +9,11 @@
 
 	<?php wp_head(); ?>
 
-	<?php the_field('header_scripts', 'option'); ?>
+	
 
 	<style>
 		
-		<?php the_field('custom_css', 'option'); ?>
+		
 
 	</style>
 	
@@ -21,11 +21,11 @@
 
 <body <?php body_class(); ?>>
 
-<?php the_field('body_scripts', 'option'); ?>
+
 
 <header class="header clearfic">
 
-	<a href="<?php bloginfo('url'); ?>" class="logo left"><img src="<?php bloginfo('template_url'); ?>/images/logo.svg" title="<?php the_field('logo_title', 'option'); ?>" alt="<?php the_field('logo_alt_text', 'option'); ?>"></a>
+	<a href="<?php bloginfo('url'); ?>" class="logo left"><img src="<?php bloginfo('template_url'); ?>/images/logo.svg" title="Title" alt="Title"></a>
 	
 	<a class="menu-link right" href="#nav">&#9776; Menu</a>
 

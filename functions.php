@@ -9,9 +9,7 @@
     add_action( 'wp_enqueue_scripts', 'theme_scripts' );
 
     // Theme Options
-    if( function_exists('acf_add_options_page') ) {
-        acf_add_options_page();
-    }
+    // Will possibly add an if statement here that adds a function to add the Pods Framework options page to Wordpress. phew.
 
     // Add title tag to <head> section
     add_theme_support( 'title-tag' );
