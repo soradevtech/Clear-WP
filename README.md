@@ -1,3 +1,5 @@
+### This is a mirror of https://github.com/rjmccollam/Bare-WP
+
 # Bare Development Theme
 
 A starting point for WordPress development projects.
