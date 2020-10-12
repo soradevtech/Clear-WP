@@ -62,7 +62,7 @@
             $feat_image = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
         } else {
             // Get the default featured image in theme options
-            $feat_image = get_field('default_featured_image', 'option');
+            $feat_image = NULL; // This was an ACF reference. I'll possibly update with a Pods variant
         }
         echo $feat_image;
     }
